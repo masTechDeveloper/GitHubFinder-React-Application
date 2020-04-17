@@ -1,33 +1,19 @@
 import React, { Component } from 'react';
 
 class UserItem extends Component {
-  constructor() {
-    super();
-    this.state = {
-      id: 'id',
-      login: 'masTechDeveloper',
-      avatar_url:
-        'https://avatars0.githubusercontent.com/u/40725533?s=460&u=fd6942d2a702edaacba03d88889ceb8256462b44&v=4',
-      html_url: 'https://github.com/masTechDeveloper',
-    };
-  }
-
   render() {
+    const { login, avatar_url, html_url } = this.props.user;
     return (
       <div className='card text-center'>
         <img
-          src={this.state.avatar_url}
-          alt={this.state.login}
+          src={avatar_url}
+          alt=''
           className='round-img'
-          style={{ width: '60px' }}
+          style={{ width: '200px' }}
         />
-        <h3>{this.state.login}</h3>
+        <h3>{login}</h3>
         <div>
-          <a
-            href={this.state.html_url}
-            className='btn btn-dark btn-sm my-1'
-            target='_blank'
-          >
+          <a href={html_url} className='btn btn-dark btn-sm my-1'>
             More
           </a>
         </div>
