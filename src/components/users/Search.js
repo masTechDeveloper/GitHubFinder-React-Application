@@ -41,7 +41,7 @@ export class Search extends Component {
           <input
             type='submit'
             value='Search'
-            className='btn btn-dark btn-block'
+            className='btn btn-danger btn-block'
           />
         </form>
 
