@@ -8,7 +8,7 @@ const Search = ({ searchUsers, showClear, clearUsers, setAlert }) => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (text === '') {
-      setAlert('Please enter something', 'Light');
+      setAlert('Please enter something!', 'Light');
     } else {
       searchUsers(text);
       setText('');
