@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-finder-react-application/static/css/main.167fc0d5.chunk.css",
+    "main.js": "/github-finder-react-application/static/js/main.6530a303.chunk.js",
+    "main.js.map": "/github-finder-react-application/static/js/main.6530a303.chunk.js.map",
+    "runtime-main.js": "/github-finder-react-application/static/js/runtime-main.54e1cbaa.js",
+    "runtime-main.js.map": "/github-finder-react-application/static/js/runtime-main.54e1cbaa.js.map",
+    "static/js/2.14f34225.chunk.js": "/github-finder-react-application/static/js/2.14f34225.chunk.js",
+    "static/js/2.14f34225.chunk.js.map": "/github-finder-react-application/static/js/2.14f34225.chunk.js.map",
+    "index.html": "/github-finder-react-application/index.html",
+    "precache-manifest.5ea37feda74afe22cadd43d6f2d6d269.js": "/github-finder-react-application/precache-manifest.5ea37feda74afe22cadd43d6f2d6d269.js",
+    "service-worker.js": "/github-finder-react-application/service-worker.js",
+    "static/css/main.167fc0d5.chunk.css.map": "/github-finder-react-application/static/css/main.167fc0d5.chunk.css.map",
+    "static/js/2.14f34225.chunk.js.LICENSE.txt": "/github-finder-react-application/static/js/2.14f34225.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54e1cbaa.js",
+    "static/js/2.14f34225.chunk.js",
+    "static/css/main.167fc0d5.chunk.css",
+    "static/js/main.6530a303.chunk.js"
+  ]
+}
